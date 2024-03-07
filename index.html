@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html>
-    <body style="background-color: aquamarine;">
-        <h2>Ankka Kauppa</h2><br>
-        <p>Myynnissä olevat ankat</p>
+    <link rel="stylesheet" href="tyylit.css">
+    <body>
+        <h1>Ankka Kauppa</h1><br>
+        <p class="ala-otsikko">Myynnissä olevat ankat</p>
 
-        <figure>
-        <a href="kumiankka.html">
-            <img src="kumiankka.jpg" alt="Kuvateksti" width="250">
-        </a>
-            <figcaption>Kumiankka 0,75€</figcaption>
-        </figure><br>
-        <figure>
-            <a href="suomiankka.html">
-                <img src="suomiankka.jpg" alt="Kuvateksti" width="250">
+        <div class="ankka-laatikko">
+            <figure>
+            <a href="kumiankka.html">
+                <img src="kumiankka.jpg" height="250" width="250">
             </a>
-                <figcaption>Suomiankka 1,00€</figcaption>
-            </figure>
+                <figcaption class="kuva-teksti">Kumiankka 0,75€</figcaption>
+            </figure><br>
+            <figure>
+                <a href="suomiankka.html">
+                    <img src="suomiankka.jpg" height="250" width="250">
+                </a>
+                    <figcaption class="kuva-teksti">Suomiankka 1,00€</figcaption>
+                </figure>
+        </div>
     </body>
 </html>
